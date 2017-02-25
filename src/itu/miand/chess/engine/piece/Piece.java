@@ -21,4 +21,7 @@ public abstract class Piece {
 
     public abstract List<Move> calculateLegalMoves(final Board board);
 
+    public Alliance getPieceAlliance() {
+        return this.pieceAlliance;
+    }
 }
