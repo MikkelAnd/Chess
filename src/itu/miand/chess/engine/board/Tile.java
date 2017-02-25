@@ -1,8 +1,13 @@
-package itu.miand;
+package itu.miand.chess.engine.board;
+import itu.miand.chess.engine.piece.Piece;
 
 /**
  * Created by Mikkel Andersen on 2/25/2017.
  */
+
+//com.chess.engine.board
+//com.chess.engine.pieces
+
 public abstract class Tile {
 
     private int tileCoordinate;
